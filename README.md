@@ -9,7 +9,7 @@ Fractional chance class for use with the [Scientist Library](http://github.com/d
 
 ## 1. Installation
 
-Require the latest version of Scientist Symfony using [Composer](https://getcomposer.org/).
+Require the latest version of Scientist Chances Fractional using [Composer](https://getcomposer.org/).
 
     composer require arcticlinux/scientist-chances-fractional
 
