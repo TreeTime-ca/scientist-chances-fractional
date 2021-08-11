@@ -1,0 +1,48 @@
+{
+  "name": "arcticlinux/scientist-chances-fractional",
+  "description": "A fractional chance class for daylerees/scientist",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Best",
+      "email": "mbest@arcticlinux.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Scientist\\Chances\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "extra": {
+    "composer-version": ">=2.0.13"
+  },
+  "require": {
+    "php": ">=7.3",
+    "daylerees/scientist": "^2.1"
+  },
+  "require-dev": {
+    "composer/package-versions-deprecated": "1.11.99.2",
+    "phpunit/phpunit": "^9.5",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+    "friendsofphp/php-cs-fixer": "2.*",
+    "pheromone/phpcs-security-audit": "^2.0",
+    "phpcompatibility/php-compatibility": "*",
+    "phpmd/phpmd": "2.*",
+    "phpstan/phpstan": "*",
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "3.*",
+    "vimeo/psalm": "*"
+  }
+}
